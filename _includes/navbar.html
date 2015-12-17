@@ -15,10 +15,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/">Αρχική</a>
+                    <a href="{{ "/" | prepend: site.baseurl }}">Αρχική</a>
                 </li>
                 <li>
-                    <a href="/mhtropoliths/">Ο Μητροπολίτης</a>
+                    <a href="{{ "/mhtropoliths/" | prepend: site.baseurl }}">Ο Μητροπολίτης</a>
                 </li>
                 <li>
                     <a href="/blog-home-1.html">Νέα</a>
@@ -27,7 +27,7 @@
                     <a href="/blog-home-2.html">Εκδηλώσεις</a>
                 </li>
                 <li>
-                    <a href="/contact/">Επικοινωνία</a>
+                    <a href="{{ "/contact/" | prepend: site.baseurl }}">Επικοινωνία</a>
                 </li>
             </ul>
         </div>
